@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <title>Vy's Random Page</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap" rel="stylesheet">
+    <style>
+        #page_title {
+            font-size: x-large;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h2>Vy's User Page</h2>
+        <h2 id="page_title">Vy's User Page</h2>
         <audio controls src="dummy.mp3">
             Your browser does not support the <code>audio</code> element.
         </audio>
@@ -39,7 +47,7 @@
                 <h4><em>Hobbies</em></h4>
                 <ul>
                     <li>
-                        <b>Rock climbing</b> <br>
+                        <b class="hobby_title">Rock climbing</b> <br>
                         might sound cool until you see me on the rock
                         <figure>
                             <img id="climbing-meme" src="https://memeguy.com/photos/images/i-went-rock-climbing-for-the-first-time-today-29773.jpg" alt="climbing expectation vs reality">
@@ -51,14 +59,14 @@
                         </video>
                     </li>
                     <li>
-                        <b>Crash Royale</b> <br>
+                        <b class="hobby_title">Crash Royale</b> <br>
                         I blame this for countless late assignments lol
-                        <picture>
+                        <picture style="width: 20%; position: static;">
                             <img src="http://sites.psu.edu/ist446/wp-content/uploads/sites/1885/2016/03/clash-royale.jpg" alt="Crash Royale Logo">
                         </picture>
                     </li>
                     <li>
-                        <b>Eating</b> <br>
+                        <b class="hobby_title">Eating</b> <br>
                         the top three addictions right now are
                         <ol>
                             <li>El Gordo's tripa taco</li>
@@ -73,7 +81,7 @@
         <section id="other">
             <h4>Random</h4>
             <div>
-                Cryptography is my interest, so here is a useless rectangular trasposition text <br>
+                <span>Cryptography</span> is my interest, so here is a useless rectangular trasposition text <br>
                 Here is a cipher text: U H T Q U A E E G A X B M T I <br>
                 And since I have to have a table in this page, here is the hint :D
                 <table style="width:40%">
@@ -130,8 +138,8 @@
 
     <footer>
         <section id="friending">
-            <h2>Let's be friends!</h2>
-            That is enough about me. What about you?
+            <h2 id="friending_title">Let's be friends!</h2>
+            That is enough about me. What about you? <br>
             <form>
                 <fieldset>
                     <legend>Your information</legend>

@@ -1,0 +1,67 @@
+/* This is a comment */
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+body > h2 {
+    font: "Red Hat Display", sans-serif;
+}
+
+nav a {
+    font-weight: bold;
+    color: rgba(0,0,255,0.3)
+}
+
+nav a:hover {
+    font-size: 120%;
+    color: rgba(0,0,255,1)
+}
+
+#friending_title {
+    font: "Red Hat Display", sans-serif;
+    text-align: center;
+    padding: 0em;
+}
+
+#id li {
+    list-style-type: square;
+}
+
+.hobby_title {
+    font-size: 18px;
+}
+
+#friending fieldset {
+    background-color: aliceblue;
+    border-style:double;
+    border-width: 1em;
+    border-color: currentColor;
+    border-radius: 0%;
+    position: relative;
+}
+
+fieldset legend {
+    font-size: 20px;
+    background-color: rgb(13, 97, 100);
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    display: none;
+}
+
+table {
+    width: 200px;
+}
+
+th, td {
+    height: 60px;
+    border-style: solid;
+    border-width: 2px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    text-align: center;
+}
+
+span {
+    display: inline-block;
+}
